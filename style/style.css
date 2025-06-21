@@ -271,25 +271,32 @@
 
     .logos {
         max-width: 100%;
-        margin: 0px auto;
-        justify-content: center;
-        border: none;
+        padding: 0 10px; /* ✅ Adds horizontal padding to avoid logos hitting the screen edges */
+        box-sizing: border-box;
     }
 
     .company-logos {
         display: flex;
         flex-direction: column;
+        width: 100%;  /* ✅ Optional → Adjust logo size for mobile */
+        height: auto;
+        object-fit: contain;
     }
 
     .toplogos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);  /* ✅ Fix → 2 columns for small screens */
         gap: 20px;
-        margin-bottom: 20px;
-        justify-content: center;
+        width: 100%;                           /* ✅ Ensures the grid fits inside parent */
+        justify-items: center;  
     }
 
     .bottomlinelogos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* ✅ 3 logos below, stays balanced */
         gap: 20px;
-        justify-content: center;
+        width: 100%;
+        justify-items: center;
     }
 
 }
