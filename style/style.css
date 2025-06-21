@@ -279,16 +279,17 @@
     .company-logos {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
-        margin: 0 auto;
     }
 
     .toplogos {
-        gap: 30px;
-        margin-bottom: 30px;
+        gap: 20px;
+        margin-bottom: 20px;
+        justify-content: center;
     }
 
     .bottomlinelogos {
-        gap: 30px;
+        gap: 20px;
+        justify-content: center;
     }
+
 }
