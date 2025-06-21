@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* shared style */
+.dflex{
+    display: flex;
+}
+
+/* nav style */
+.navs{
+    max-width: 1200px;
+    max-height: 54px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+.logo{
+    font-size: 1.5rem;
+}
+.menu{
+    gap: 34px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    align-items: center;
+}
+.search-icon, .cart-icon{
+width: 40px;
+height: 40px;
+}
+
+
+/* hero style */
+.hero-info{
+    justify-content: space-around;
+    max-width: 1200px;
+    height: 475px;
+    align-items: center;
+    margin: 0 auto;
+}
+.hero-text{
+    max-width: 582px;
+}
+.hero-head{
+    font-size: 3.25rem;
+    line-height: 4rem;
+    margin-bottom: 16px;
+}
+
+.hero-description{
+    font-size: 1rem;
+}
+
+.hero-images {
+    position: relative;
+    width: 400px;       /* or 100%, or any desired size */
+    height: 400px;      /* or any desired size */
+    margin: 0 auto;     /* centers the whole div horizontally */
+}
+
+.bg-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    width: 100%;       /* fill the container */
+    height: 100%;
+    object-fit: contain; /* or cover depending on design */
+}
+
+.mcamera {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-25%, -50%);
+    width: 100%;        /* adjust size as needed */
+    height: auto;
+}
+.pbtn{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 41px;
+    color: white;
+}
+.logos{
+    max-width: 1200px;
+    margin: 0px auto;
+    justify-content: center;
+    margin-top: 70px;
+}
+.company-logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
+    padding: 40px;
+    align-items: center;
+    border-top: 1px solid rgba(192, 204, 218, 1);
+    border-bottom: 1px solid rgba(192, 204, 218, 1);;
+}
