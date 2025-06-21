@@ -169,6 +169,7 @@
     font-size: 3.25rem;
     line-height: 4rem;
     margin-bottom: 16px;
+    line-height: 150%;
 }
 
 .hero-description {
@@ -182,7 +183,7 @@
 }
 
 .hero-images {
-    background-image: url(/images/Circle\ design.svg);
+    background-image: url(../images/Circle\ design.svg);
     background-size: 65%;
     background-repeat: no-repeat;
     background-position: right;
@@ -331,7 +332,9 @@
 .hero-text{
     margin-top: -30px;
 }
-
+.hero-head{
+    font-size: 1.75rem;
+}
     .hero-images {
         background-position: center;
         width: 100%;
@@ -369,5 +372,8 @@
         width: 100%;
         justify-items: center;
     }
-
+    .allcard{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+}
 }
