@@ -273,6 +273,8 @@
         max-width: 100%;
         padding: 0 10px; /* ✅ Adds horizontal padding to avoid logos hitting the screen edges */
         box-sizing: border-box;
+        border: none;
+        margin-top: 50px;
     }
 
     .company-logos {
